@@ -1,0 +1,75 @@
+.cursor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+  
+}
+.big {
+    width: 300px;
+    height: 300px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle farthest-corner at 5% 5%, white, white, #FFCBC9, #FF9893, #FF9893, #FF9893);
+
+
+}
+
+.black {
+    width: 1792px;
+    height: 979px;
+    background-color: black;
+    opacity: 0;
+}
+.active {
+    width: 1792px;
+    height: 979px;
+    background-color: black;
+    opacity: 1;
+    transition: all 4s ease-in;
+}
+
+
+.img1 {
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+
+.img2 {
+    width: 35%;
+    position: absolute;
+    left: 7%;
+    top: 10%;   
+}
+
+.img3 {
+    width: 98%;
+    position: absolute;
+    top: 0;
+    left: 1%;
+
+
+}
+
+.circle {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+    left: 54.5%;
+    top: 18.5%;
+    opacity: 0;
+}
+
+.musicbox {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
